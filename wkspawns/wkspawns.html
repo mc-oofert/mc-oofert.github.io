@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wuckle Item Spawns</title>
+        <link rel="stylesheet" href="wk.css"/>
+        <script src="https://unpkg.com/mithril@2.3.3/mithril.js"></script>
+    </head>
+    <body>
+        <div id="intro"></div>
+        <div id="toc"></div>
+        <div id="datastuff"></div>
+        <script>
+            // By no means is this good code but whatever
+            var root = document.getElementById("datastuff")
+            const intro = document.getElementById("intro");
+            const toc = document.getElementById("toc");
+
+            function MakeItemData(item) {
+                var chance = item.spawnchance ? item.spawnchance+"%" : "100%"
+                return [
+                    m("div", {class: "itemName"}, item.name),
+                    m("ul", {class: "itemDataSummary"}, [ //
+                        m("h3", "Unadjusted chance: ", [m("b", chance), item.spawnchance == null ? m("i", " (probably)") : null]),
+                        m("p", {style: "font-weight: normal"}, "Details:"),
+                        item.textdata.map(function(dat) {
+                            return m("li", {key: dat}, dat)}
+                        )
+                    ])
+                ]
+            }
+            function ItemImageClicked(event) { //this is stupid i know but this is really just a fancy json and picture site thing
+                var isFullbright = event.srcElement.src.includes("-fullbright")
+                event.srcElement.parentElement.className = isFullbright ? "itemPictureContainer normal" : "itemPictureContainer fullbright"
+                event.srcElement.src = isFullbright ? event.srcElement.src.replace("-fullbright", "") : event.srcElement.src.replace(".jpg", "-fullbright.jpg")
+            }
+
+            var tocContents = []
+
+            m.request({
+                method: "GET",
+                url: "wkpictures/output.json",
+            })
+            .then(function(result) {
+                var output = []
+                for (let levelIndex = 0; levelIndex < result.levels.length; ++levelIndex) {
+                    const level = result.levels[levelIndex];
+                    const levelName = ""+level.levelName
+                    output.push(m("h1", {id: levelName}, levelName))
+                    tocContents.push(m("li", m("a", {href: '#' + levelName}, levelName)))
+                    var levelResult = []
+                    for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
+                        const item = level.items[itemIndex];
+                        levelResult.push(m("tr", [
+                            m("td", [m("div", {class: "itemData"}, MakeItemData(item))]),
+                            m("td", {class: "itemPictureContainer normal"}, [m("img", {class: "itemPicture", src: `wkpictures/${item.id}.jpg`, loading: "lazy", onclick: ItemImageClicked})]),
+                        ]))
+                    }
+                    output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)))
+                }
+                m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",result.version)), ". Unadjusted chance means base spawn chance * additional spawn, not accounting for other factors. Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns. Also grubs are just invisible for some reason???"])])
+                m.render(toc, m("ul", tocContents))
+                m.render(root, output)
+            }).catch(function(error) {
+                console.log(error)
+                m.render(root, m("div", {class: "errorbox"},"Failed to load output.json; "+error))
+            })
+        </script>
+    </body>
+</html>
