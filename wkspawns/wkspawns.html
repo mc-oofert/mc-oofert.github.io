@@ -64,7 +64,7 @@
                     }
                     output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)))
                 }
-                m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",result.version)), ". Unadjusted chance means base spawn chance * additional spawn, not accounting for other factors. Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns. Also grubs are just invisible for some reason???"])])
+                m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",result.version)), ". Unadjusted chance means base spawn chance * additional spawn, not accounting for other factors. Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns."])])
                 m.render(toc, m("ul", tocContents))
                 m.render(root, output)
             }).catch(function(error) {
