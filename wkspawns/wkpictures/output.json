@@ -1,5 +1,5 @@
 {
-  "version": "b0.50d",
+  "version": "b0.50k",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -2230,8 +2230,16 @@
           ]
         },
         {
+          "name": "flaregun",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number7",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
           "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number7",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number8",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4594,26 +4602,6 @@
           "textdata": [
             "Spawn chance: 1"
           ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_02-spawntable-number14",
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%):",
-            "Denizen_Roach",
-            "Set 2 (164%):",
-            "Roach",
-            "Set 3 (42.4%):",
-            "Roach",
-            "Set 4 (3.9%):",
-            "Denizen_Roach_Explosive",
-            "Set 5 (100%):",
-            "Roach",
-            "Set 6 (100%):",
-            "Roach"
-          ]
         }
       ]
     },
@@ -4850,6 +4838,26 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Pier_01-spawntable-number30",
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%):",
+            "Denizen_Roach",
+            "Set 2 (164%):",
+            "Roach",
+            "Set 3 (42.4%):",
+            "Roach",
+            "Set 4 (3.9%):",
+            "Denizen_Roach_Explosive",
+            "Set 5 (100%):",
+            "Roach",
+            "Set 6 (100%):",
+            "Roach"
           ]
         }
       ]
@@ -7020,24 +7028,24 @@
           ]
         },
         {
-          "name": "SlugGrub",
-          "id": "M2_Pipeworks_Organ_09-SlugGrub-number6",
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organ_09-Piton-number6",
           "spawnchance": "27.2",
           "textdata": [
             "Spawn chance: 0.272"
           ]
         },
         {
-          "name": "Bean Bar",
-          "id": "M2_Pipeworks_Organ_09-Bean Bar-number7",
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organ_09-Piton-number7",
           "spawnchance": "27.2",
           "textdata": [
             "Spawn chance: 0.272"
           ]
         },
         {
-          "name": "Auto Piton",
-          "id": "M2_Pipeworks_Organ_09-Auto Piton-number8",
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organ_09-Piton-number8",
           "spawnchance": "27.2",
           "textdata": [
             "Spawn chance: 0.272"
@@ -7060,40 +7068,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "M2_Pipeworks_Organ_09-Piton-number11",
-          "spawnchance": "27.2",
-          "textdata": [
-            "Spawn chance: 0.272"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "M2_Pipeworks_Organ_09-Piton-number12",
-          "spawnchance": "27.2",
-          "textdata": [
-            "Spawn chance: 0.272"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "M2_Pipeworks_Organ_09-Piton-number13",
-          "spawnchance": "27.2",
-          "textdata": [
-            "Spawn chance: 0.272"
-          ]
-        },
-        {
           "name": "Injector",
-          "id": "M2_Pipeworks_Organ_09-Injector-number14",
-          "spawnchance": "27.2",
-          "textdata": [
-            "Spawn chance: 0.272"
-          ]
-        },
-        {
-          "name": "Injector",
-          "id": "M2_Pipeworks_Organ_09-Injector-number15",
+          "id": "M2_Pipeworks_Organ_09-Injector-number11",
           "spawnchance": "27.2",
           "textdata": [
             "Spawn chance: 0.272"
@@ -7964,26 +7940,6 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M2_Pipeworks_Drainage_07-spawntable-number14",
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%):",
-            "Denizen_Roach",
-            "Set 2 (164%):",
-            "Roach",
-            "Set 3 (42.4%):",
-            "Roach",
-            "Set 4 (3.9%):",
-            "Denizen_Roach_Explosive",
-            "Set 5 (100%):",
-            "Roach",
-            "Set 6 (100%):",
-            "Roach"
           ]
         }
       ]
