@@ -10,10 +10,14 @@
         <meta property="og:url" content="https://mc-oofert.github.io/wkspawns/wkspawns.html" />
         <meta property="og:description" content="Mostly accurate White Knuckle item spawn list" />
         <link rel="stylesheet" href="wk.css"/>
-        <script src="https://unpkg.com/mithril@2.3.3/mithril.js"></script>
+        <script src="https://unpkg.com/mithril@2.3.7/mithril.js"></script>
     </head>
     <body>
         <div id="intro"></div>
+        <div class="searchcont">
+            Search by level name <small>(case-sensitive)</small>: <input type="text" id="searchbar"></input><br/>
+            Search by item name <small>(case-sensitive)</small>: <input type="text" id="searchbar2"></input>
+        </div>
         <div id="toc"></div>
         <div id="datastuff"></div>
         <script>
@@ -21,6 +25,20 @@
             var root = document.getElementById("datastuff")
             const intro = document.getElementById("intro");
             const toc = document.getElementById("toc");
+            const searchbar = document.getElementById("searchbar");
+            const searchbaritem = document.getElementById("searchbar2");
+            searchbar.onchange = function() {
+                m.redraw();
+            }
+            searchbaritem.onchange = function() {
+                m.redraw();
+            }
+
+            var jsonresult;
+            const request = new XMLHttpRequest();
+            request.open("GET", "wkpictures/output.json", false);
+            request.send(null);
+            jsonresult = JSON.parse(request.responseText);
 
             function MakeItemData(item) {
                 var chance = item.spawnchance ? item.spawnchance+"%" : "100%"
@@ -41,36 +59,63 @@
                 event.srcElement.src = isFullbright ? event.srcElement.src.replace("-fullbright", "") : event.srcElement.src.replace(".jpg", "-fullbright.jpg")
             }
 
-            var tocContents = []
-
-            m.request({
-                method: "GET",
-                url: "wkpictures/output.json",
-            })
-            .then(function(result) {
-                var output = []
-                for (let levelIndex = 0; levelIndex < result.levels.length; ++levelIndex) {
-                    const level = result.levels[levelIndex];
-                    const levelName = ""+level.levelName
-                    output.push(m("h1", {id: levelName}, levelName))
-                    tocContents.push(m("li", m("a", {href: '#' + levelName}, levelName)))
-                    var levelResult = []
-                    for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
-                        const item = level.items[itemIndex];
-                        levelResult.push(m("tr", [
-                            m("td", [m("div", {class: "itemData"}, MakeItemData(item))]),
-                            m("td", {class: "itemPictureContainer normal"}, [m("img", {class: "itemPicture", src: `wkpictures/${item.id}.jpg`, loading: "lazy", onclick: ItemImageClicked})]),
-                        ]))
+            m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",jsonresult.version)), ". Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns."])])
+            var ToCComponent = {
+                view: function() {
+                    try {
+                        var tocContents = [];
+                        for (let levelIndex = 0; levelIndex < jsonresult.levels.length; ++levelIndex) {
+                            const level = jsonresult.levels[levelIndex];
+                            if(searchbar.value && !level.levelName.includes(searchbar.value)) {continue;}
+                            if(searchbaritem.value) {
+                                var containsItem = false;
+                                for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
+                                    const item = level.items[itemIndex];
+                                    if(searchbaritem.value && !item.name.includes(searchbaritem.value)) {continue;}
+                                    containsItem = true;
+                                }
+                                if(!containsItem) {continue;}
+                            }
+                            tocContents.push(m("li", m("a", {href: '#' + level.levelName}, level.levelName)))
+                        }
+                        return m("ul", tocContents);
+                    } catch(error) {
+                        console.log(error)
+                        return m("div", {class: "errorbox"},error);
                     }
-                    output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)))
                 }
-                m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",result.version)), ". Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns."])])
-                m.render(toc, m("ul", tocContents))
-                m.render(root, output)
-            }).catch(function(error) {
-                console.log(error)
-                m.render(root, m("div", {class: "errorbox"},"Failed to load output.json; "+error))
-            })
+            }
+            m.mount(toc, ToCComponent);
+            var LevelListComp = {
+                view: function() {
+                    try{
+                        var output = []
+                        for (let levelIndex = 0; levelIndex < jsonresult.levels.length; ++levelIndex) {
+                            const level = jsonresult.levels[levelIndex];
+                            const levelName = ""+level.levelName;
+                            if(searchbar.value && !levelName.includes(searchbar.value)) {continue;}
+                            var levelResult = [];
+                            for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
+                                const item = level.items[itemIndex];
+                                if(searchbaritem.value && !item.name.includes(searchbaritem.value)) {continue;}
+                                levelResult.push(m("tr", [
+                                    m("td", [m("div", {class: "itemData"}, MakeItemData(item))]),
+                                    m("td", {class: "itemPictureContainer normal"}, [m("img", {class: "itemPicture", src: `wkpictures/${item.id}.jpg`, loading: "lazy", onclick: ItemImageClicked})]),
+                                ]))
+                            }
+                            if(levelResult.length <= 0) continue;
+                            output.push(m("h1", {id: levelName}, levelName));
+                            output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)))
+                        }
+                        
+                        return m("div", output);
+                    } catch(error) {
+                        console.log(error)
+                        return m("div", {class: "errorbox"},error);
+                    }
+                }
+            }
+            m.mount(root, LevelListComp);
         </script>
     </body>
 </html>
