@@ -1,5 +1,5 @@
 {
-  "version": "b0.50k",
+  "version": "Halloween-b0.51",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -1397,14 +1397,6 @@
           "textdata": [
             "No spawn chance found."
           ]
-        },
-        {
-          "name": "Blink Eye",
-          "id": "S1_GarbageChute_04-Blink Eye-number2",
-          "spawnchance": "29.5",
-          "textdata": [
-            "Spawn chance: 0.295"
-          ]
         }
       ]
     },
@@ -1493,6 +1485,14 @@
         {
           "name": "Can of Beans",
           "id": "S1_TangledSink_Intro_01-Can of Beans-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "S1_TangledSink_Intro_01-Rebar-number4",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -1638,6 +1638,648 @@
         {
           "name": "Note",
           "id": "P0_Delta_Gate_01-Note-number1",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MH_Extraction_Prison_01",
+      "items": [
+        {
+          "name": "Entity Scanner",
+          "id": "MH_Extraction_Prison_01-Entity Scanner-number1",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number5",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number6",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number7",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "MH_Extraction_Prison_01-Auto Piton-number8",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number9",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number10",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number11",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number12",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number13",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number14",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number15",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number16",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number17",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number18",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number19",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Wrench",
+          "id": "MH_Extraction_Prison_01-Wrench-number20",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number21",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number22",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number23",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number24",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number25",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number26",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number27",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number28",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number29",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number30",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number31",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number32",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number33",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number34",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number35",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number36",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number37",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "MH_Extraction_Prison_01-Auto Piton-number38",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number39",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number40",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number41",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number42",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number43",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number44",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number45",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Blink Eye",
+          "id": "MH_Extraction_Prison_01-Blink Eye-number46",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number47",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number48",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number49",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number50",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number51",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number52",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number53",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number54",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number55",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number56",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number57",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number58",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number59",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number60",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number61",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MH_Extraction_Gastric_01",
+      "items": [
+        {
+          "name": "Wrench",
+          "id": "MH_Extraction_Gastric_01-Wrench-number1",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Gastric_01-Powercell-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Gastric_01-Powercell-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Gastric_01-Powercell-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Gastric_01-Rebar-number5",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Gastric_01-Rebar-number6",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Gastric_01-Piton-number7",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Gastric_01-Piton-number8",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Gastric_01-Piton-number9",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "MH_Extraction_Gastric_01-Piton-number10",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "MH_Extraction_Gastric_01-Auto Piton-number11",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Gastric_01-Can of Beans-number12",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Gastric_01-Can of Beans-number13",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Gastric_01-Can of Beans-number14",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Gastric_01-Can of Beans-number15",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Gastric_01-Can of Beans-number16",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Gastric_01-Rebar-number17",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "MH_Extraction_Gastric_01-Rebar-number18",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -1796,6 +2438,22 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Bean Bar-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Floppy Disk-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -1888,6 +2546,14 @@
           "spawnchance": "43.2",
           "textdata": [
             "Spawn chance: 0.432"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number12",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -2230,8 +2896,32 @@
           ]
         },
         {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number7",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
+          "spawnchance": "54.5",
+          "textdata": [
+            "Spawn chance: 0.545"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
           "name": "flaregun",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number7",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number10",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2239,7 +2929,7 @@
         },
         {
           "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number8",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number11",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2315,6 +3005,35 @@
     {
       "levelName": "Dev_Shaft_01",
       "items": []
+    },
+    {
+      "levelName": "Dev_PhageTest_01",
+      "items": [
+        {
+          "name": "Powercell",
+          "id": "Dev_PhageTest_01-Powercell-number1",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "Dev_PhageTest_01-Powercell-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "Dev_PhageTest_01-Powercell-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
     },
     {
       "levelName": "Dev_Abyss_01",
@@ -3467,6 +4186,22 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number5",
+          "spawnchance": "73.2",
+          "textdata": [
+            "Spawn chance: 0.732"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number6",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -5341,6 +6076,14 @@
           "spawnchance": "37",
           "textdata": [
             "Spawn chance: 0.37"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M3_Habitation_Lab_05-Auto Piton-number12",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -7941,6 +8684,26 @@
           "textdata": [
             "No spawn chance found."
           ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M2_Pipeworks_Drainage_07-spawntable-number14",
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%):",
+            "Denizen_Roach",
+            "Set 2 (164%):",
+            "Roach",
+            "Set 3 (42.4%):",
+            "Roach",
+            "Set 4 (3.9%):",
+            "Denizen_Roach_Explosive",
+            "Set 5 (100%):",
+            "Roach",
+            "Set 6 (100%):",
+            "Roach"
+          ]
         }
       ]
     },
@@ -9500,6 +10263,15 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Wrench",
+          "id": "M1_Silos_SafeArea_01-Wrench-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must have flags: ACH_PARASITE"
           ]
         }
       ]
