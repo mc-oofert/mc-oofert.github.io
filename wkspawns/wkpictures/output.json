@@ -1,5 +1,5 @@
 {
-  "version": "Halloween-b0.51",
+  "version": "Halloween-b0.51f",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -2440,8 +2440,17 @@
           ]
         },
         {
+          "name": "Wrench",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Wrench-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must have flags: ACH_PARASITE"
+          ]
+        },
+        {
           "name": "Bean Bar",
-          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Bean Bar-number2",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Bean Bar-number3",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2449,7 +2458,7 @@
         },
         {
           "name": "Floppy Disk",
-          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Floppy Disk-number3",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Floppy Disk-number4",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2551,6 +2560,14 @@
         {
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number12",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number13",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2864,8 +2881,16 @@
           ]
         },
         {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number3",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
           "name": "Bean Bar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number3",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number4",
           "spawnchance": "73.9",
           "textdata": [
             "Spawn chance: 0.739"
@@ -2873,15 +2898,7 @@
         },
         {
           "name": "Rebar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number4",
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number5",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number5",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2896,8 +2913,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number7",
+          "name": "Piton",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number7",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2906,6 +2923,14 @@
         {
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
           "spawnchance": "54.5",
           "textdata": [
             "Spawn chance: 0.545"
@@ -2913,7 +2938,7 @@
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number10",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2921,7 +2946,7 @@
         },
         {
           "name": "flaregun",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number10",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number11",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2929,7 +2954,7 @@
         },
         {
           "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number11",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number12",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4191,17 +4216,17 @@
         {
           "name": "Can of Beans",
           "id": "M3_Habitation_Shaft_Intro-Can of Beans-number5",
-          "spawnchance": "73.2",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 0.732"
+            "No spawn chance found."
           ]
         },
         {
           "name": "Can of Beans",
           "id": "M3_Habitation_Shaft_Intro-Can of Beans-number6",
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1"
+            "No spawn chance found."
           ]
         }
       ]
@@ -4279,6 +4304,16 @@
           "spawnchance": "12.3",
           "textdata": [
             "Spawn chance: 0.123"
+          ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M3_Habitation_Shaft_07-Entity Scanner-number10",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -5208,26 +5243,6 @@
           "textdata": [
             "Spawn chance: 0.427"
           ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_03-spawntable-number21",
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%):",
-            "Denizen_Roach",
-            "Set 2 (164%):",
-            "Roach",
-            "Set 3 (42.4%):",
-            "Roach",
-            "Set 4 (3.9%):",
-            "Denizen_Roach_Explosive",
-            "Set 5 (100%):",
-            "Roach",
-            "Set 6 (100%):",
-            "Roach"
-          ]
         }
       ]
     },
@@ -5574,26 +5589,6 @@
           "textdata": [
             "Spawn chance: 1"
           ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_01-spawntable-number30",
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%):",
-            "Denizen_Roach",
-            "Set 2 (164%):",
-            "Roach",
-            "Set 3 (42.4%):",
-            "Roach",
-            "Set 4 (3.9%):",
-            "Denizen_Roach_Explosive",
-            "Set 5 (100%):",
-            "Roach",
-            "Set 6 (100%):",
-            "Roach"
-          ]
         }
       ]
     },
@@ -5768,26 +5763,6 @@
           "spawnchance": "6.9",
           "textdata": [
             "Spawn chance: 0.069"
-          ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Lab_Lobby-spawntable-number10",
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%):",
-            "Denizen_Roach",
-            "Set 2 (164%):",
-            "Roach",
-            "Set 3 (42.4%):",
-            "Roach",
-            "Set 4 (3.9%):",
-            "Denizen_Roach_Explosive",
-            "Set 5 (100%):",
-            "Roach",
-            "Set 6 (100%):",
-            "Roach"
           ]
         }
       ]
@@ -7194,6 +7169,16 @@
           "textdata": [
             "Spawn chance: 0.098"
           ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M2_Pipeworks_Waste_03-Entity Scanner-number29",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
+          ]
         }
       ]
     },
@@ -7968,6 +7953,16 @@
             "Spawn chance: 0.804",
             "pickup-tag-disk: 2 to 4"
           ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M2_Pipeworks_Organ_04-Entity Scanner-number16",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
+          ]
         }
       ]
     },
@@ -8686,8 +8681,18 @@
           ]
         },
         {
+          "name": "Entity Scanner",
+          "id": "M2_Pipeworks_Drainage_07-Entity Scanner-number14",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
+          ]
+        },
+        {
           "name": "Table Spawner",
-          "id": "M2_Pipeworks_Drainage_07-spawntable-number14",
+          "id": "M2_Pipeworks_Drainage_07-spawntable-number15",
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 6 to 8 items",
@@ -9537,6 +9542,16 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M1_Silos_Broken_07-Entity Scanner-number18",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -11423,6 +11438,16 @@
           "textdata": [
             "Spawn chance: 0.047"
           ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M1_Silos_Storage_06-Entity Scanner-number11",
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
+          ]
         }
       ]
     },
@@ -12345,6 +12370,16 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M1_Silos_Air_06-Entity Scanner-number9",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must have flags: ACH_PARASITE",
+            "Does not spawn on load. Likely uses a trigger or otherwise."
           ]
         }
       ]
