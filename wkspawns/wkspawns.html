@@ -108,11 +108,14 @@
                                     m("td", {class: "itemPictureContainer normal"}, [m("img", {class: "itemPicture", src: `wkpictures/${item.id}.jpg`, loading: "lazy", onclick: ItemImageClicked})]),
                                 ]))
                             }
-                            output.push(m("h1", {id: levelName}, levelName));
                             if(levelResult.length <= 0) {
-                                output.push(m("p", {class: "noitemstext"}, "No items found in this level..."));
+                                if(!searchbaritem.value) {
+                                    output.push(m("h1", {id: levelName}, levelName));
+                                    output.push(m("p", {class: "noitemstext"}, "No items found in this level..."));
+                                }
                                 continue;
                             }
+                            output.push(m("h1", {id: levelName}, levelName));
                             output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)));
                         }
                         
