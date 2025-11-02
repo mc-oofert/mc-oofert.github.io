@@ -122,3 +122,12 @@ tr,td {
     border-radius: 6px;
     color: yellow;
 }
+
+.noitemstext {
+    color: grey;
+    background: rgba(0, 0, 0, 0.24);
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 0.5em;
+}
