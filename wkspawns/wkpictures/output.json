@@ -1,5 +1,5 @@
 {
-  "version": "Halloween-b0.51f",
+  "version": "Holiday-b0.53i",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -2288,6 +2288,60 @@
       ]
     },
     {
+      "levelName": "MX_Chimney_Transition_Spire_To_Shelf_01",
+      "items": [
+        {
+          "name": "Blink Eye",
+          "id": "MX_Chimney_Transition_Spire_To_Shelf_01-Blink Eye-number1",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Hot Cocoa",
+          "id": "MX_Chimney_Transition_Spire_To_Shelf_01-Hot Cocoa-number2",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Transition_Spire_To_Shelf_01-Note-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Transition_Shelf_To_Frigid_01",
+      "items": []
+    },
+    {
+      "levelName": "MX_Chimney_Transition_Icebox_To_Spire_01",
+      "items": [
+        {
+          "name": "Hot Cocoa",
+          "id": "MX_Chimney_Transition_Icebox_To_Spire_01-Hot Cocoa-number1",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Transition_Icebox_To_Spire_01-Note-number2",
+          "spawnchance": "61.5",
+          "textdata": [
+            "Spawn chance: 0.615"
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "MX_Chimney_Start_01",
       "items": [
         {
@@ -2315,14 +2369,272 @@
           ]
         },
         {
-          "name": "SlugGrub",
-          "id": "MX_Chimney_Start_01-SlugGrub-number4",
-          "spawnchance": "3.3",
+          "name": "Note",
+          "id": "MX_Chimney_Start_01-Note-number4",
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.033"
+            "Spawn chance: 1"
           ]
         }
       ]
+    },
+    {
+      "levelName": "MX_Chimney_Spire_02",
+      "items": [
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Spire_02-Roach-number1",
+          "spawnchance": "24.7",
+          "textdata": [
+            "Spawn chance: 0.247"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Spire_01",
+      "items": [
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Spire_01-Note-number1",
+          "spawnchance": "84.8",
+          "textdata": [
+            "Spawn chance: 0.848"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Spire_01-Roach-number2",
+          "spawnchance": "17.7",
+          "textdata": [
+            "Spawn chance: 0.177"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Shelf_03",
+      "items": [
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_03-Note-number1",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Shelf_03-Roach-number2",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Shelf_02",
+      "items": [
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_02-Note-number1",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_02-Note-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_02-Note-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_02-Note-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Shelf_02-Roach-number5",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Shelf_02-Roach-number6",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Shelf_01",
+      "items": [
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_01-Note-number1",
+          "spawnchance": "32.8",
+          "textdata": [
+            "Spawn chance: 0.328"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Shelf_01-Note-number2",
+          "spawnchance": "32.8",
+          "textdata": [
+            "Spawn chance: 0.328"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Shelf_01-Roach-number3",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_LoopRoom_01",
+      "items": [
+        {
+          "name": "SlugGrub",
+          "id": "MX_Chimney_LoopRoom_01-SlugGrub-number1",
+          "spawnchance": "30",
+          "textdata": [
+            "Spawn chance: 0.3"
+          ]
+        },
+        {
+          "name": "Hot Cocoa",
+          "id": "MX_Chimney_LoopRoom_01-Hot Cocoa-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Chance modified by ascent: 750m - 2500m"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_LoopRoom_01-Note-number3",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Interlude_01",
+      "items": [
+        {
+          "name": "Hot Cocoa",
+          "id": "MX_Chimney_Interlude_01-Hot Cocoa-number1",
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Interlude_01-Note-number2",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Interlude_01-Note-number3",
+          "spawnchance": "36",
+          "textdata": [
+            "Spawn chance: 0.36"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MX_Chimney_Interlude_01-Note-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "cryogun",
+          "id": "MX_Chimney_Interlude_01-cryogun-number5",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Interlude_01-Roach-number6",
+          "spawnchance": "24.6",
+          "textdata": [
+            "Spawn chance: 0.246"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Icebox_03",
+      "items": [
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Icebox_03-Roach-number1",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Icebox_02",
+      "items": [
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Icebox_02-Roach-number1",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "MX_Chimney_Icebox_02-Roach-number2",
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "MX_Chimney_Icebox_01",
+      "items": []
     },
     {
       "levelName": "MX_Chimney_Glacial_03",
@@ -2560,14 +2872,6 @@
         {
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number12",
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number13",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2881,16 +3185,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number3",
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
           "name": "Bean Bar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number4",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number3",
           "spawnchance": "73.9",
           "textdata": [
             "Spawn chance: 0.739"
@@ -2898,7 +3194,15 @@
         },
         {
           "name": "Rebar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number5",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number4",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number5",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2913,8 +3217,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number7",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number7",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2923,14 +3227,6 @@
         {
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
           "spawnchance": "54.5",
           "textdata": [
             "Spawn chance: 0.545"
@@ -2938,7 +3234,7 @@
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number10",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2946,7 +3242,7 @@
         },
         {
           "name": "flaregun",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number11",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number10",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2954,7 +3250,7 @@
         },
         {
           "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number12",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number11",
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4216,17 +4512,17 @@
         {
           "name": "Can of Beans",
           "id": "M3_Habitation_Shaft_Intro-Can of Beans-number5",
-          "spawnchance": "",
+          "spawnchance": "73.2",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 0.732"
           ]
         },
         {
           "name": "Can of Beans",
           "id": "M3_Habitation_Shaft_Intro-Can of Beans-number6",
-          "spawnchance": "",
+          "spawnchance": "100",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -4313,7 +4609,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -5243,6 +5540,26 @@
           "textdata": [
             "Spawn chance: 0.427"
           ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Pier_03-spawntable-number21",
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%):",
+            "Denizen_Roach",
+            "Set 2 (164%):",
+            "Roach",
+            "Set 3 (42.4%):",
+            "Roach",
+            "Set 4 (3.9%):",
+            "Denizen_Roach_Explosive",
+            "Set 5 (100%):",
+            "Roach",
+            "Set 6 (100%):",
+            "Roach"
+          ]
         }
       ]
     },
@@ -5670,6 +5987,14 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Endless_Start-Can of Beans-number6",
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -7177,7 +7502,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -7961,7 +8287,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -8687,7 +9014,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         },
         {
@@ -9551,7 +9879,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -11446,7 +11775,8 @@
           "textdata": [
             "Spawn chance: 0.5",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -12379,7 +12709,8 @@
           "textdata": [
             "Spawn chance: 1",
             "Must have flags: ACH_PARASITE",
-            "Does not spawn on load. Likely uses a trigger or otherwise."
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         }
       ]
