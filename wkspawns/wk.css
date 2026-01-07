@@ -81,7 +81,7 @@ tr,td {
     content: "Click image for normal lighting...";
 }
 .itemPictureContainer.normal::after {
-    content: "Click image for fullbright...";
+    content: "Click image for fullbright + extra outline...";
 }
 .itemData {
     display: flex;
