@@ -6089,6 +6089,26 @@
           "textdata": [
             "Spawn chance: 0.069"
           ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Lab_Lobby-spawntable-number10",
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%):",
+            "Denizen_Roach",
+            "Set 2 (164%):",
+            "Roach",
+            "Set 3 (42.4%):",
+            "Roach",
+            "Set 4 (3.9%):",
+            "Denizen_Roach_Explosive",
+            "Set 5 (100%):",
+            "Roach",
+            "Set 6 (100%):",
+            "Roach"
+          ]
         }
       ]
     },
