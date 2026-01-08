@@ -10,7 +10,7 @@
         <meta property="og:url" content="https://mc-oofert.github.io/wkspawns/wkspawns.html" />
         <meta property="og:description" content="Mostly accurate White Knuckle item spawn list" />
         <link rel="stylesheet" href="wk.css"/>
-        <script src="https://unpkg.com/mithril@2.3.7/mithril.js"></script>
+        <script src="https://unpkg.com/mithril@2.3.8/mithril.js"></script>
     </head>
     <body>
         <div id="intro"></div>
@@ -48,7 +48,7 @@
             function MakeItemData(item) {
                 var chance = item.spawnchance ? item.spawnchance+"%" : "100%"
                 return [
-                    m("div", {class: "itemName"}, item.name),
+                    m("div", {class: "itemName"}, item.name, m("small", ` (#${item.num})`)),
                     m("ul", {class: "itemDataSummary"}, [ //
                         m("h3", "Unadjusted chance: ", [m("b", chance), item.spawnchance == null ? m("i", " (probably)") : null]),
                         m("p", {style: "font-weight: normal"}, "Details:"),
@@ -62,6 +62,11 @@
                 var isFullbright = event.srcElement.src.includes("-fullbright")
                 event.srcElement.parentElement.className = isFullbright ? "itemPictureContainer normal" : "itemPictureContainer fullbright"
                 event.srcElement.src = isFullbright ? event.srcElement.src.replace("-fullbright", "") : event.srcElement.src.replace(".jpg", "-fullbright.jpg")
+            }
+            function SideviewButtonClicked(event) {
+                var isvariantA = event.srcElement.className.includes("firstVariant")
+                event.srcElement.className = isvariantA ? event.srcElement.className.replace("firstVariant", "lastVariant") : event.srcElement.className.replace("lastVariant", "firstVariant")
+                event.srcElement.src = isvariantA ? event.srcElement.src.replace("-sideview1", "-sideview2") : event.srcElement.src.replace("-sideview2", "-sideview1")
             }
 
             m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",jsonresult.version)), ". Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns. Also, a machine doesnt really know how to make a good screenshot but whatever."])])
@@ -99,6 +104,10 @@
                             const level = jsonresult.levels[levelIndex];
                             const levelName = ""+level.levelName;
                             if(searchbar.value && !levelName.includes(searchbar.value)) {continue;}
+                            function doHeading() {
+                                output.push(m("h1", {id: levelName}, levelName));    
+                                output.push(m("div", [m("button", {class: `collapsible`}, m("span", "Show/hide level sideview... (experimental)")), m("div", {class: "sideviewImage"}, m("img", {class: "firstVariant", src: `wkpictures/${level.levelSideviews[0]}.png`, loading: "lazy", onclick: SideviewButtonClicked}))]));
+                            }
                             var levelResult = [];
                             for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
                                 const item = level.items[itemIndex];
@@ -110,12 +119,12 @@
                             }
                             if(levelResult.length <= 0) {
                                 if(!searchbaritem.value) {
-                                    output.push(m("h1", {id: levelName}, levelName));
+                                    doHeading()
                                     output.push(m("p", {class: "noitemstext"}, "No items found in this level..."));
                                 }
                                 continue;
                             }
-                            output.push(m("h1", {id: levelName}, levelName));
+                            doHeading()
                             output.push(m("div", {class: "tablecontainer"}, m("table", {cellspacing: "1"}, levelResult)));
                         }
                         
@@ -127,6 +136,22 @@
                 }
             }
             m.mount(root, LevelListComp);
+        </script>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                content.style.maxHeight = null;
+                } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+            }
         </script>
     </body>
 </html>

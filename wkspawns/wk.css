@@ -47,7 +47,7 @@ tr,td {
     padding: 0;
     margin: 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 .itemDataSummary h3 {
     padding: 0.5em;
@@ -130,4 +130,46 @@ tr,td {
     margin: 0 auto;
     border: 2px solid black;
     padding: 0.5em;
+}
+small {
+    font-size: small;
+}
+.itemDataSummary p {
+    margin: 0.25em 0 0.25em 0;
+}
+
+.collapsible {
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+}
+.collapsible span {
+    font-size: large;
+    color: yellow;
+}
+.sideviewImage {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out;
+  position: relative;
+  display: inline-block;
+}
+
+.sideviewImage img {
+    background: rgb(29, 29, 29);
+    border: 2px solid black;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.sideviewImage::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #ffffff1a;
+    content: "Click image to change side..."
 }
