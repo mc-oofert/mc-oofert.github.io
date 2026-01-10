@@ -574,6 +574,15 @@
           "textdata": [
             "No spawn chance found."
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Training_Level_01-Supply Crate-number23",
+          "num": 23,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -599,6 +608,42 @@
             "Set 6 (15%): Injector",
             "Set 7 (30%): Bean Bar",
             "Set 8 (50%): Roach"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "MX_Playground-Flare Crate-number2",
+          "num": 2,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "MX_Playground-Flare Crate-number3",
+          "num": 3,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MX_Playground-Supply Crate-number4",
+          "num": 4,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MX_Playground-Supply Crate-number5",
+          "num": 5,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -2504,6 +2549,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MH_Extraction_Prison_01-Supply Crate-number62",
+          "num": 62,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -2674,6 +2728,15 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MH_Extraction_Gastric_01-Supply Crate-number19",
+          "num": 19,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -2926,6 +2989,15 @@
           "textdata": [
             "Spawn chance: 0.1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MX_Chimney_Shelf_02-Supply Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -3079,21 +3151,6 @@
           "spawnchance": "10",
           "textdata": [
             "Spawn chance: 0.1"
-          ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "MX_Chimney_Icebox_03-spawntable-number2",
-          "num": 2,
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
           ]
         }
       ]
@@ -3352,6 +3409,24 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Supply Crate-number5",
+          "num": 5,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Sink_To_Pipeworks_01-Supply Crate-number6",
+          "num": 6,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -3468,6 +3543,15 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Supply Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -3902,6 +3986,24 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flare Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Supply Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -3973,6 +4075,15 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Chute_To_Habitation-Flare Crate-number8",
+          "num": 8,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -4298,6 +4409,15 @@
             "Set 5 (100%): Roach",
             "Set 6 (100%): Roach"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_05-Flare Crate-number17",
+          "num": 17,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -4451,6 +4571,15 @@
           "textdata": [
             "Spawn chance: 0.651"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Transit_03-Supply Crate-number17",
+          "num": 17,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -4577,6 +4706,15 @@
           "textdata": [
             "Spawn chance: 0.906"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_02-Flare Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -4684,6 +4822,33 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_01-Flare Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_01-Flare Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_01-Flare Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -4843,6 +5008,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Garden_04-Flare Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -4960,6 +5134,33 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Garden_03-Supply Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Garden_03-Supply Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Garden_03-Supply Crate-number15",
+          "num": 15,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5050,6 +5251,24 @@
           "textdata": [
             "Spawn chance: 0.905"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Garden_02-Flare Crate-number10",
+          "num": 10,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Garden_02-Supply Crate-number11",
+          "num": 11,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5121,6 +5340,15 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Garden_01-Flare Crate-number8",
+          "num": 8,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -5393,6 +5621,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_Intro-Flare Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5495,6 +5732,15 @@
             "Does not spawn on load.",
             "Likely uses a trigger or otherwise."
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_07-Flare Crate-number11",
+          "num": 11,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5585,6 +5831,33 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_06-Flare Crate-number10",
+          "num": 10,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Shaft_06-Supply Crate-number11",
+          "num": 11,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Shaft_06-Supply Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5647,6 +5920,15 @@
           "spawnchance": "70",
           "textdata": [
             "Spawn chance: 0.7"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_05-Flare Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -5891,6 +6173,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_02-Flare Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -5935,6 +6226,15 @@
           "spawnchance": "53.6",
           "textdata": [
             "Spawn chance: 0.536"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_01-Flare Crate-number5",
+          "num": 5,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -6352,6 +6652,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_LadderWarp_500m_01-Supply Crate-number9",
+          "num": 9,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -6459,6 +6768,24 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_04-Supply Crate-number11",
+          "num": 11,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_04-Flare Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -6664,6 +6991,24 @@
             "Set 5 (100%): Roach",
             "Set 6 (100%): Roach"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_03-Flare Crate-number22",
+          "num": 22,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_03-Supply Crate-number23",
+          "num": 23,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -6789,6 +7134,48 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Pier_02-spawntable-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_02-Flare Crate-number15",
+          "num": 15,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_02-Supply Crate-number16",
+          "num": 16,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_02-Supply Crate-number17",
+          "num": 17,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -7062,18 +7449,21 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_01-spawntable-number30",
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_01-Flare Crate-number30",
           "num": 30,
           "spawnchance": "N/A",
           "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_01-Flare Crate-number31",
+          "num": 31,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -7182,6 +7572,15 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Endless_Start-Flare Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -7304,6 +7703,21 @@
           "spawnchance": "6.9",
           "textdata": [
             "Spawn chance: 0.069"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Lab_Lobby-spawntable-number10",
+          "num": 10,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
           ]
         }
       ]
@@ -7709,6 +8123,15 @@
           "textdata": [
             "Spawn chance: 0.211"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Lab_04-Flare Crate-number6",
+          "num": 6,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -7943,6 +8366,24 @@
           "textdata": [
             "Spawn chance: 0.204"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Lab_03-Flare Crate-number26",
+          "num": 26,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Lab_03-Flare Crate-number27",
+          "num": 27,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -8068,6 +8509,15 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Lab_02-Flare Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
@@ -15050,6 +15500,24 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M1_Silos_Air_05-Supply Crate-number6",
+          "num": 6,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M1_Silos_Air_05-Supply Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -15903,6 +16371,24 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "CH_04_CommsArray-Flare Crate-number38",
+          "num": 38,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "CH_04_CommsArray-Flare Crate-number39",
+          "num": 39,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
           ]
         }
       ]
