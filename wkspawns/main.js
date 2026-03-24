@@ -45,6 +45,15 @@ function SideviewButtonClicked(event) {
     event.srcElement.className = isvariantA ? event.srcElement.className.replace("firstVariant", "lastVariant") : event.srcElement.className.replace("lastVariant", "firstVariant")
     event.srcElement.src = isvariantA ? event.srcElement.src.replace("-sideview1", "-sideview2") : event.srcElement.src.replace("-sideview2", "-sideview1")
 }
+function CollapsibleClicked(event) {
+    event.srcElement.parentElement.classList.toggle("active");
+    var content = event.srcElement.parentElement.nextElementSibling;
+      if (content.style.maxHeight){
+    content.style.maxHeight = null;
+    } else {
+       content.style.maxHeight = content.scrollHeight + "px";
+    }
+}
 
 m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",jsonresult.version)), ". Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns. Also, a machine doesnt really know how to make a good screenshot but whatever."])])
 var ToCComponent = {
@@ -83,7 +92,7 @@ var LevelListComp = {
                 if(searchbar.value && !levelName.includes(searchbar.value)) {continue;}
                 function doHeading() {
                     output.push(m("h1", {id: levelName}, levelName));    
-                    output.push(m("div", [m("button", {class: `collapsible`}, m("span", "Show/hide level sideview... (experimental)")), m("div", {class: "sideviewImage"}, m("img", {class: "firstVariant", src: `wkpictures/${level.levelSideviews[0]}.png`, loading: "lazy", onclick: SideviewButtonClicked}))]));
+                    output.push(m("div", [m("button", {class: "collapsible", onclick: CollapsibleClicked}, m("span", "Show/hide level sideview... (experimental)")), m("div", {class: "sideviewImage"}, m("img", {class: "firstVariant", src: `wkpictures/${level.levelSideviews[0]}.png`, loading: "lazy", onclick: SideviewButtonClicked}))]));
                 }
                 var levelResult = [];
                 for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
