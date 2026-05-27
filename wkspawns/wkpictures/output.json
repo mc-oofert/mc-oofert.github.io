@@ -1,5 +1,5 @@
 {
-  "version": "0.55k",
+  "version": "0.55q",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -1741,6 +1741,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Injector",
+          "id": "S1_TangledSink_Intro_01-Injector-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -1752,12 +1761,12 @@
       ],
       "items": [
         {
-          "name": "Piton",
-          "id": "S1_TangledSink_04-Piton-number1",
+          "name": "Note",
+          "id": "S1_TangledSink_04-Note-number1",
           "num": 1,
-          "spawnchance": "86.9",
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.869"
+            "Spawn chance: 1"
           ]
         },
         {
@@ -1770,12 +1779,12 @@
           ]
         },
         {
-          "name": "Auto Piton",
-          "id": "S1_TangledSink_04-Auto Piton-number3",
+          "name": "Piton",
+          "id": "S1_TangledSink_04-Piton-number3",
           "num": 3,
-          "spawnchance": "63.1",
+          "spawnchance": "86.9",
           "textdata": [
-            "Spawn chance: 0.631"
+            "Spawn chance: 0.869"
           ]
         },
         {
@@ -1788,9 +1797,18 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "S1_TangledSink_04-Rebar-number5",
+          "name": "Auto Piton",
+          "id": "S1_TangledSink_04-Auto Piton-number5",
           "num": 5,
+          "spawnchance": "63.1",
+          "textdata": [
+            "Spawn chance: 0.631"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "S1_TangledSink_04-Rebar-number6",
+          "num": 6,
           "spawnchance": "43.3",
           "textdata": [
             "Spawn chance: 0.433"
@@ -2103,45 +2121,9 @@
           ]
         },
         {
-          "name": "Wrench",
-          "id": "MH_Extraction_Prison_01-Wrench-number20",
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number20",
           "num": 20,
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Powercell",
-          "id": "MH_Extraction_Prison_01-Powercell-number21",
-          "num": 21,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Powercell",
-          "id": "MH_Extraction_Prison_01-Powercell-number22",
-          "num": 22,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Powercell",
-          "id": "MH_Extraction_Prison_01-Powercell-number23",
-          "num": 23,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Injector",
-          "id": "MH_Extraction_Prison_01-Injector-number24",
-          "num": 24,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -2149,7 +2131,43 @@
         },
         {
           "name": "Note",
-          "id": "MH_Extraction_Prison_01-Note-number25",
+          "id": "MH_Extraction_Prison_01-Note-number21",
+          "num": 21,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number22",
+          "num": 22,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number23",
+          "num": 23,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Wrench",
+          "id": "MH_Extraction_Prison_01-Wrench-number24",
+          "num": 24,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number25",
           "num": 25,
           "spawnchance": "100",
           "textdata": [
@@ -2157,8 +2175,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number26",
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number26",
           "num": 26,
           "spawnchance": "100",
           "textdata": [
@@ -2166,8 +2184,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number27",
+          "name": "Powercell",
+          "id": "MH_Extraction_Prison_01-Powercell-number27",
           "num": 27,
           "spawnchance": "100",
           "textdata": [
@@ -2175,8 +2193,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number28",
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number28",
           "num": 28,
           "spawnchance": "100",
           "textdata": [
@@ -2184,8 +2202,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number29",
+          "name": "Note",
+          "id": "MH_Extraction_Prison_01-Note-number29",
           "num": 29,
           "spawnchance": "100",
           "textdata": [
@@ -2193,8 +2211,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number30",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number30",
           "num": 30,
           "spawnchance": "100",
           "textdata": [
@@ -2202,8 +2220,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number31",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number31",
           "num": 31,
           "spawnchance": "100",
           "textdata": [
@@ -2211,8 +2229,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number32",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number32",
           "num": 32,
           "spawnchance": "100",
           "textdata": [
@@ -2220,8 +2238,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number33",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number33",
           "num": 33,
           "spawnchance": "100",
           "textdata": [
@@ -2229,8 +2247,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number34",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number34",
           "num": 34,
           "spawnchance": "100",
           "textdata": [
@@ -2238,8 +2256,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number35",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number35",
           "num": 35,
           "spawnchance": "100",
           "textdata": [
@@ -2247,8 +2265,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number36",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number36",
           "num": 36,
           "spawnchance": "100",
           "textdata": [
@@ -2256,8 +2274,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "MH_Extraction_Prison_01-Piton-number37",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number37",
           "num": 37,
           "spawnchance": "100",
           "textdata": [
@@ -2265,8 +2283,8 @@
           ]
         },
         {
-          "name": "Auto Piton",
-          "id": "MH_Extraction_Prison_01-Auto Piton-number38",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number38",
           "num": 38,
           "spawnchance": "100",
           "textdata": [
@@ -2274,8 +2292,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number39",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number39",
           "num": 39,
           "spawnchance": "100",
           "textdata": [
@@ -2283,8 +2301,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number40",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number40",
           "num": 40,
           "spawnchance": "100",
           "textdata": [
@@ -2292,8 +2310,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number41",
+          "name": "Piton",
+          "id": "MH_Extraction_Prison_01-Piton-number41",
           "num": 41,
           "spawnchance": "100",
           "textdata": [
@@ -2301,8 +2319,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "MH_Extraction_Prison_01-Can of Beans-number42",
+          "name": "Auto Piton",
+          "id": "MH_Extraction_Prison_01-Auto Piton-number42",
           "num": 42,
           "spawnchance": "100",
           "textdata": [
@@ -2319,8 +2337,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number44",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number44",
           "num": 44,
           "spawnchance": "100",
           "textdata": [
@@ -2328,8 +2346,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "MH_Extraction_Prison_01-Rebar-number45",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number45",
           "num": 45,
           "spawnchance": "100",
           "textdata": [
@@ -2337,8 +2355,8 @@
           ]
         },
         {
-          "name": "Blink Eye",
-          "id": "MH_Extraction_Prison_01-Blink Eye-number46",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number46",
           "num": 46,
           "spawnchance": "100",
           "textdata": [
@@ -2346,8 +2364,8 @@
           ]
         },
         {
-          "name": "Injector",
-          "id": "MH_Extraction_Prison_01-Injector-number47",
+          "name": "Can of Beans",
+          "id": "MH_Extraction_Prison_01-Can of Beans-number47",
           "num": 47,
           "spawnchance": "100",
           "textdata": [
@@ -2355,8 +2373,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "MH_Extraction_Prison_01-Rubble-number48",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number48",
           "num": 48,
           "spawnchance": "100",
           "textdata": [
@@ -2364,8 +2382,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "MH_Extraction_Prison_01-Rubble-number49",
+          "name": "Rebar",
+          "id": "MH_Extraction_Prison_01-Rebar-number49",
           "num": 49,
           "spawnchance": "100",
           "textdata": [
@@ -2373,8 +2391,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "MH_Extraction_Prison_01-Rubble-number50",
+          "name": "Blink Eye",
+          "id": "MH_Extraction_Prison_01-Blink Eye-number50",
           "num": 50,
           "spawnchance": "100",
           "textdata": [
@@ -2382,8 +2400,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "MH_Extraction_Prison_01-Rubble-number51",
+          "name": "Injector",
+          "id": "MH_Extraction_Prison_01-Injector-number51",
           "num": 51,
           "spawnchance": "100",
           "textdata": [
@@ -2481,9 +2499,45 @@
           ]
         },
         {
-          "name": "Supply Crate",
-          "id": "MH_Extraction_Prison_01-Supply Crate-number62",
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number62",
           "num": 62,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number63",
+          "num": 63,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number64",
+          "num": 64,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "MH_Extraction_Prison_01-Rubble-number65",
+          "num": 65,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MH_Extraction_Prison_01-Supply Crate-number66",
+          "num": 66,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -3604,21 +3658,6 @@
           "spawnchance": "6.9",
           "textdata": [
             "Spawn chance: 0.069"
-          ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Lab_Lobby-spawntable-number10",
-          "num": 10,
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
           ]
         }
       ]
@@ -6770,9 +6809,20 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Shaft_05-Flare Crate-number7",
+          "name": "Floppy Disk",
+          "id": "M3_Habitation_Shaft_05-Floppy Disk-number7",
           "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must have flags: ACH_PIPEWORKS",
+            "pickup-tag-disk: 0 to 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_05-Flare Crate-number8",
+          "num": 8,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -7022,9 +7072,20 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Shaft_02-Flare Crate-number12",
+          "name": "Floppy Disk",
+          "id": "M3_Habitation_Shaft_02-Floppy Disk-number12",
           "num": 12,
+          "spawnchance": "80.4",
+          "textdata": [
+            "Spawn chance: 0.804",
+            "Must have flags: ACH_PIPEWORKS",
+            "pickup-tag-disk: 0 to 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Shaft_02-Flare Crate-number13",
+          "num": 13,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -7634,6 +7695,15 @@
           "textdata": [
             "No chance data (yet)"
           ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_04-Supply Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -7825,9 +7895,24 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_03-Flare Crate-number21",
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Pier_03-spawntable-number21",
           "num": 21,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_03-Flare Crate-number22",
+          "num": 22,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -7835,8 +7920,8 @@
         },
         {
           "name": "Supply Crate",
-          "id": "M3_Habitation_Pier_03-Supply Crate-number22",
-          "num": 22,
+          "id": "M3_Habitation_Pier_03-Supply Crate-number23",
+          "num": 23,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -7969,23 +8054,17 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_02-spawntable-number14",
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_02-Flare Crate-number14",
           "num": 14,
           "spawnchance": "N/A",
           "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
+            "No chance data (yet)"
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_02-Flare Crate-number15",
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_02-Supply Crate-number15",
           "num": 15,
           "spawnchance": "N/A",
           "textdata": [
@@ -7996,15 +8075,6 @@
           "name": "Supply Crate",
           "id": "M3_Habitation_Pier_02-Supply Crate-number16",
           "num": 16,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
-        },
-        {
-          "name": "Supply Crate",
-          "id": "M3_Habitation_Pier_02-Supply Crate-number17",
-          "num": 17,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -8281,24 +8351,9 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_01-spawntable-number30",
-          "num": 30,
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
-          ]
-        },
-        {
           "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_01-Flare Crate-number31",
-          "num": 31,
+          "id": "M3_Habitation_Pier_01-Flare Crate-number30",
+          "num": 30,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -8306,8 +8361,8 @@
         },
         {
           "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_01-Flare Crate-number32",
-          "num": 32,
+          "id": "M3_Habitation_Pier_01-Flare Crate-number31",
+          "num": 31,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -9344,26 +9399,28 @@
           ]
         },
         {
-          "name": "Can of What",
-          "id": "M3_Habitation_Lab_02-Can of What-number6",
+          "name": "Floppy Disk",
+          "id": "M3_Habitation_Lab_02-Floppy Disk-number6",
           "num": 6,
-          "spawnchance": "",
+          "spawnchance": "60",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 0.6",
+            "Must have flags: ACH_PIPEWORKS",
+            "pickup-tag-disk: 0 to 1"
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "M3_Habitation_Lab_02-Can of Beans-number7",
+          "name": "Note",
+          "id": "M3_Habitation_Lab_02-Note-number7",
           "num": 7,
-          "spawnchance": "",
+          "spawnchance": "71.3",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 0.713"
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "M3_Habitation_Lab_02-Can of Beans-number8",
+          "name": "Can of What",
+          "id": "M3_Habitation_Lab_02-Can of What-number8",
           "num": 8,
           "spawnchance": "",
           "textdata": [
@@ -9398,9 +9455,27 @@
           ]
         },
         {
-          "name": "Note",
-          "id": "M3_Habitation_Lab_02-Note-number12",
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Lab_02-Can of Beans-number12",
           "num": 12,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Lab_02-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M3_Habitation_Lab_02-Note-number14",
+          "num": 14,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -9408,8 +9483,8 @@
         },
         {
           "name": "Note",
-          "id": "M3_Habitation_Lab_02-Note-number13",
-          "num": 13,
+          "id": "M3_Habitation_Lab_02-Note-number15",
+          "num": 15,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -9417,8 +9492,8 @@
         },
         {
           "name": "Flare Crate",
-          "id": "M3_Habitation_Lab_02-Flare Crate-number14",
-          "num": 14,
+          "id": "M3_Habitation_Lab_02-Flare Crate-number16",
+          "num": 16,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -10280,18 +10355,9 @@
           ]
         },
         {
-          "name": "Rebar-Explosive",
-          "id": "M2_Pipeworks_Waste_03-Rebar-Explosive-number28",
-          "num": 28,
-          "spawnchance": "9.8",
-          "textdata": [
-            "Spawn chance: 0.098"
-          ]
-        },
-        {
           "name": "Entity Scanner",
-          "id": "M2_Pipeworks_Waste_03-Entity Scanner-number29",
-          "num": 29,
+          "id": "M2_Pipeworks_Waste_03-Entity Scanner-number28",
+          "num": 28,
           "spawnchance": "50",
           "textdata": [
             "Spawn chance: 0.5",
@@ -12050,6 +12116,21 @@
             "Does not spawn on load.",
             "Likely uses a trigger or otherwise."
           ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M2_Pipeworks_Drainage_07-spawntable-number15",
+          "num": 15,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
+          ]
         }
       ]
     },
@@ -12622,7 +12703,30 @@
         "M2_Pipeworks_Break_01-sideview1",
         "M2_Pipeworks_Break_01-sideview2"
       ],
-      "items": []
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Break_01-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "M2_Pipeworks_Break_01-Bean Bar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        }
+      ]
     },
     {
       "levelName": "Transition_Habitation_To_Silo",
