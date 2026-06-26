@@ -1,5 +1,5 @@
 {
-  "version": "0.55q",
+  "version": "0.60a",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -1632,15 +1632,6 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Blink Eye",
-          "id": "S1_GarbageChute_03-Blink Eye-number2",
-          "num": 2,
-          "spawnchance": "29.5",
-          "textdata": [
-            "Spawn chance: 0.295"
           ]
         }
       ]
@@ -3501,18 +3492,9 @@
           ]
         },
         {
-          "name": "Radio",
-          "id": "MX_Playground-Radio-number15",
-          "num": 15,
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
           "name": "Table Spawner",
-          "id": "MX_Playground-spawntable-number16",
-          "num": 16,
+          "id": "MX_Playground-spawntable-number15",
+          "num": 15,
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 2 to 3 items",
@@ -3528,6 +3510,15 @@
         },
         {
           "name": "Flare Crate",
+          "id": "MX_Playground-Flare Crate-number16",
+          "num": 16,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
           "id": "MX_Playground-Flare Crate-number17",
           "num": 17,
           "spawnchance": "N/A",
@@ -3536,8 +3527,8 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "MX_Playground-Flare Crate-number18",
+          "name": "Supply Crate",
+          "id": "MX_Playground-Supply Crate-number18",
           "num": 18,
           "spawnchance": "N/A",
           "textdata": [
@@ -3548,15 +3539,6 @@
           "name": "Supply Crate",
           "id": "MX_Playground-Supply Crate-number19",
           "num": 19,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
-        },
-        {
-          "name": "Supply Crate",
-          "id": "MX_Playground-Supply Crate-number20",
-          "num": 20,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4763,18 +4745,9 @@
           ]
         },
         {
-          "name": "Note",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Note-number2",
-          "num": 2,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
           "name": "Bean Bar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number3",
-          "num": 3,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number2",
+          "num": 2,
           "spawnchance": "73.9",
           "textdata": [
             "Spawn chance: 0.739"
@@ -4782,7 +4755,16 @@
         },
         {
           "name": "Rebar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number4",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number4",
           "num": 4,
           "spawnchance": "100",
           "textdata": [
@@ -4799,8 +4781,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number6",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number6",
           "num": 6,
           "spawnchance": "100",
           "textdata": [
@@ -4811,15 +4793,6 @@
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number7",
           "num": 7,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
-          "num": 8,
           "spawnchance": "54.5",
           "textdata": [
             "Spawn chance: 0.545"
@@ -4827,8 +4800,8 @@
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
-          "num": 9,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
+          "num": 8,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4836,8 +4809,8 @@
         },
         {
           "name": "flaregun",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number10",
-          "num": 10,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number9",
+          "num": 9,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4845,8 +4818,8 @@
         },
         {
           "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number11",
-          "num": 11,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number10",
+          "num": 10,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4854,8 +4827,8 @@
         },
         {
           "name": "Flare Crate",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flare Crate-number12",
-          "num": 12,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flare Crate-number11",
+          "num": 11,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4863,8 +4836,8 @@
         },
         {
           "name": "Supply Crate",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Supply Crate-number13",
-          "num": 13,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Supply Crate-number12",
+          "num": 12,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4954,6 +4927,326 @@
       ]
     },
     {
+      "levelName": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea",
+      "levelSideviews": [
+        "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-sideview1",
+        "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Handgun",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Handgun-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Floppy Disk-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must not have flags: haspickedup_i4floppy"
+          ]
+        },
+        {
+          "name": "Trinket_Beta",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Trinket_Beta-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must not have flags: haspickedup_i4pouch"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Note-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Bean Bar-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number12",
+          "num": 12,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Rebar-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number15",
+          "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-SlugGrub-number16",
+          "num": 16,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Blink Eye",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Blink Eye-number17",
+          "num": 17,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Injector-number18",
+          "num": 18,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number19",
+          "num": 19,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number20",
+          "num": 20,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-spawntable-number21",
+          "num": 21,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number22",
+          "num": 22,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number23",
+          "num": 23,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number24",
+          "num": 24,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Flare Crate-number25",
+          "num": 25,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Campaign_Interlude_Abyss_To_Nest_01_Prison_Cleared",
+      "levelSideviews": [
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison_Cleared-sideview1",
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison_Cleared-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison_Cleared-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison_Cleared-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Campaign_Interlude_Abyss_To_Nest_01_Prison",
+      "levelSideviews": [
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison-sideview1",
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison-sideview2"
+      ],
+      "items": [
+        {
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison-SlugGrub-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison-SlugGrub-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "Dev_Vent_01",
       "levelSideviews": [
         "Dev_Vent_01-sideview1",
@@ -5006,6 +5299,114 @@
       ]
     },
     {
+      "levelName": "Dev_NestCombatTest_01",
+      "levelSideviews": [
+        "Dev_NestCombatTest_01-sideview1",
+        "Dev_NestCombatTest_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Handgun",
+          "id": "Dev_NestCombatTest_01-Handgun-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Handgun",
+          "id": "Dev_NestCombatTest_01-Handgun-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number7",
+          "num": 7,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number8",
+          "num": 8,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number9",
+          "num": 9,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number10",
+          "num": 10,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Dev_NestCombatTest_01-10mm Ammo-number11",
+          "num": 11,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "Dev_AINavTest_01",
       "levelSideviews": [
         "Dev_AINavTest_01-sideview1",
@@ -5018,6 +5419,1671 @@
       "levelSideviews": [
         "Dev_Abyss_01-sideview1",
         "Dev_Abyss_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_Infested_HunterIntro_01",
+      "levelSideviews": [
+        "M5_Nest_Infested_HunterIntro_01-sideview1",
+        "M5_Nest_Infested_HunterIntro_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Injector",
+          "id": "M5_Nest_Infested_HunterIntro_01-Injector-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_Endless_Start_01",
+      "levelSideviews": [
+        "M5_Nest_Infested_Endless_Start_01-sideview1",
+        "M5_Nest_Infested_Endless_Start_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_Infested_Endless_End_01",
+      "levelSideviews": [
+        "M5_Nest_Infested_Endless_End_01-sideview1",
+        "M5_Nest_Infested_Endless_End_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_Infested_DevStart",
+      "levelSideviews": [
+        "M5_Nest_Infested_DevStart-sideview1",
+        "M5_Nest_Infested_DevStart-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Timepiece",
+          "id": "M5_Nest_Infested_DevStart-Timepiece-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Translocator",
+          "id": "M5_Nest_Infested_DevStart-Translocator-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_DevStart-Rebar-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Artifact Remote",
+          "id": "M5_Nest_Infested_DevStart-Artifact Remote-number4",
+          "num": 4,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "id": "M5_Nest_Infested_DevStart-Rapier-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Artifact Glove",
+          "id": "M5_Nest_Infested_DevStart-Artifact Glove-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_DevStart-Can of Beans-number7",
+          "num": 7,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_DevStart-Can of Beans-number8",
+          "num": 8,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_DevStart-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_DevStart-Rebar-number10",
+          "num": 10,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_DevStart-Rebar-number11",
+          "num": 11,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_Chase_01",
+      "levelSideviews": [
+        "M5_Nest_Infested_Chase_01-sideview1",
+        "M5_Nest_Infested_Chase_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Injector",
+          "id": "M5_Nest_Infested_Chase_01-Injector-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_05",
+      "levelSideviews": [
+        "M5_Nest_Infested_05-sideview1",
+        "M5_Nest_Infested_05-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_05-Note-number1",
+          "num": 1,
+          "spawnchance": "57.8",
+          "textdata": [
+            "Spawn chance: 0.578"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_05-Rebar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_05-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_05-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_04",
+      "levelSideviews": [
+        "M5_Nest_Infested_04-sideview1",
+        "M5_Nest_Infested_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_04-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M5_Nest_Infested_04-Rebar-Explosive-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M5_Nest_Infested_04-Rebar-Explosive-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_04-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_04-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_04-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M5_Nest_Infested_04-Flare Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_03",
+      "levelSideviews": [
+        "M5_Nest_Infested_03-sideview1",
+        "M5_Nest_Infested_03-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_03-Note-number1",
+          "num": 1,
+          "spawnchance": "26",
+          "textdata": [
+            "Spawn chance: 0.26"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_03-Note-number2",
+          "num": 2,
+          "spawnchance": "62.3",
+          "textdata": [
+            "Spawn chance: 0.623"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_03-Note-number3",
+          "num": 3,
+          "spawnchance": "62.3",
+          "textdata": [
+            "Spawn chance: 0.623"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "M5_Nest_Infested_03-Floppy Disk-number4",
+          "num": 4,
+          "spawnchance": "65",
+          "textdata": [
+            "Spawn chance: 0.65",
+            "Must not have flags: haspickedup_i4floppy"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M5_Nest_Infested_03-Supply Crate-number5",
+          "num": 5,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M5_Nest_Infested_03-Flare Crate-number6",
+          "num": 6,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M5_Nest_Infested_03-Supply Crate-number7",
+          "num": 7,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_02",
+      "levelSideviews": [
+        "M5_Nest_Infested_02-sideview1",
+        "M5_Nest_Infested_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Injector",
+          "id": "M5_Nest_Infested_02-Injector-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_02-Note-number2",
+          "num": 2,
+          "spawnchance": "45.5",
+          "textdata": [
+            "Spawn chance: 0.455"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_02-Note-number3",
+          "num": 3,
+          "spawnchance": "45.5",
+          "textdata": [
+            "Spawn chance: 0.455"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_02-Note-number4",
+          "num": 4,
+          "spawnchance": "26",
+          "textdata": [
+            "Spawn chance: 0.26"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_02-Note-number5",
+          "num": 5,
+          "spawnchance": "26",
+          "textdata": [
+            "Spawn chance: 0.26"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_02-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_02-10mm Ammo-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_02-Can of Beans-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_02-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M5_Nest_Infested_02-Rebar-Explosive-number10",
+          "num": 10,
+          "spawnchance": "48.2",
+          "textdata": [
+            "Spawn chance: 0.482"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_02-Rebar-number11",
+          "num": 11,
+          "spawnchance": "55.7",
+          "textdata": [
+            "Spawn chance: 0.557"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M5_Nest_Infested_02-Supply Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M5_Nest_Infested_02-Flare Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Infested_01",
+      "levelSideviews": [
+        "M5_Nest_Infested_01-sideview1",
+        "M5_Nest_Infested_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Bean Bar",
+          "id": "M5_Nest_Infested_01-Bean Bar-number1",
+          "num": 1,
+          "spawnchance": "20",
+          "textdata": [
+            "Spawn chance: 0.2"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_Infested_01-Note-number2",
+          "num": 2,
+          "spawnchance": "26",
+          "textdata": [
+            "Spawn chance: 0.26"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M5_Nest_Infested_01-Rebar-Explosive-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_01-Rebar-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_01-Rebar-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Infested_01-Rebar-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flaregun Ammo",
+          "id": "M5_Nest_Infested_01-Flaregun Ammo-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flaregun Ammo",
+          "id": "M5_Nest_Infested_01-Flaregun Ammo-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_01-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Infested_01-Can of Beans-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Infested_01-10mm Ammo-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M5_Nest_Infested_01-Supply Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_I4_Skip_To_Infested_01",
+      "levelSideviews": [
+        "M5_Nest_I4_Skip_To_Infested_01-sideview1",
+        "M5_Nest_I4_Skip_To_Infested_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_I4_Skip_To_Hotzone_01",
+      "levelSideviews": [
+        "M5_Nest_I4_Skip_To_Hotzone_01-sideview1",
+        "M5_Nest_I4_Skip_To_Hotzone_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_HotZone_Outro_01",
+      "levelSideviews": [
+        "M5_Nest_HotZone_Outro_01-sideview1",
+        "M5_Nest_HotZone_Outro_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_Outro_01-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_Outro_01-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_Outro_01-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_Outro_01-Can of Beans-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_Outro_01-Can of Beans-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_HotZone_Intro_01",
+      "levelSideviews": [
+        "M5_Nest_HotZone_Intro_01-sideview1",
+        "M5_Nest_HotZone_Intro_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_HotZone_Endless_Start_01",
+      "levelSideviews": [
+        "M5_Nest_HotZone_Endless_Start_01-sideview1",
+        "M5_Nest_HotZone_Endless_Start_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_HotZone_Endless_End_01",
+      "levelSideviews": [
+        "M5_Nest_HotZone_Endless_End_01-sideview1",
+        "M5_Nest_HotZone_Endless_End_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_HotZone_04",
+      "levelSideviews": [
+        "M5_Nest_HotZone_04-sideview1",
+        "M5_Nest_HotZone_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_HotZone_04-Note-number1",
+          "num": 1,
+          "spawnchance": "23.4",
+          "textdata": [
+            "Spawn chance: 0.234"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_04-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_04-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_04-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_04-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_04-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_04-Can of Beans-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_04-Can of Beans-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_HotZone_03",
+      "levelSideviews": [
+        "M5_Nest_HotZone_03-sideview1",
+        "M5_Nest_HotZone_03-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_03-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "75",
+          "textdata": [
+            "Spawn chance: 0.75"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_03-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_03-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_03-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_03-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_03-Can of Beans-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_03-Can of Beans-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_HotZone_02",
+      "levelSideviews": [
+        "M5_Nest_HotZone_02-sideview1",
+        "M5_Nest_HotZone_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_HotZone_02-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M5_Nest_HotZone_02-Note-number2",
+          "num": 2,
+          "spawnchance": "30.5",
+          "textdata": [
+            "Spawn chance: 0.305"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_02-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_02-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_02-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_02-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_02-10mm Ammo-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_02-Can of Beans-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_02-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "50",
+          "textdata": [
+            "Spawn chance: 0.5"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_HotZone_02-Rebar-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_HotZone_01",
+      "levelSideviews": [
+        "M5_Nest_HotZone_01-sideview1",
+        "M5_Nest_HotZone_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_HotZone_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_HotZone_01-10mm Ammo-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_01-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_HotZone_01-Can of Beans-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_HotZone_01-Rebar-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_HotZone_01-Rebar-number12",
+          "num": 12,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_HotZone_01-Piton-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_HotZone_01-Piton-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_Entrance_01",
+      "levelSideviews": [
+        "M5_Nest_Trough_Entrance_01-sideview1",
+        "M5_Nest_Trough_Entrance_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_Entrance_01-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_Entrance_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_Entrance_01-Piton-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_Entrance_01-Rebar-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_Endless_Start_01",
+      "levelSideviews": [
+        "M5_Nest_Trough_Endless_Start_01-sideview1",
+        "M5_Nest_Trough_Endless_Start_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_Endless_Start_01-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_Endless_Start_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_Endless_Start_01-Piton-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_Endless_Start_01-Rebar-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_Endless_End_01",
+      "levelSideviews": [
+        "M5_Nest_Trough_Endless_End_01-sideview1",
+        "M5_Nest_Trough_Endless_End_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_Endless_End_01-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_Ending_01",
+      "levelSideviews": [
+        "M5_Nest_Trough_Ending_01-sideview1",
+        "M5_Nest_Trough_Ending_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_Ending_01-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_Ending_01-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_Ending_01-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_08",
+      "levelSideviews": [
+        "M5_Nest_Trough_08-sideview1",
+        "M5_Nest_Trough_08-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_08-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_08-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_08-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_07",
+      "levelSideviews": [
+        "M5_Nest_Trough_07-sideview1",
+        "M5_Nest_Trough_07-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_07-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_07-Rebar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_07-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "M5_Nest_Trough_07-Bean Bar-number4",
+          "num": 4,
+          "spawnchance": "40",
+          "textdata": [
+            "Spawn chance: 0.4"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_06",
+      "levelSideviews": [
+        "M5_Nest_Trough_06-sideview1",
+        "M5_Nest_Trough_06-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_06-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_06-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_06-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_06-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "25",
+          "textdata": [
+            "Spawn chance: 0.25"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_06-Rebar-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_06-Can of Beans-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_05",
+      "levelSideviews": [
+        "M5_Nest_Trough_05-sideview1",
+        "M5_Nest_Trough_05-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_05-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_05-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M5_Nest_Trough_05-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_04",
+      "levelSideviews": [
+        "M5_Nest_Trough_04-sideview1",
+        "M5_Nest_Trough_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_04-Rebar-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M5_Nest_Trough_04-Rebar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_04-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_03",
+      "levelSideviews": [
+        "M5_Nest_Trough_03-sideview1",
+        "M5_Nest_Trough_03-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_03-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_03-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_03-Piton-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_02",
+      "levelSideviews": [
+        "M5_Nest_Trough_02-sideview1",
+        "M5_Nest_Trough_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_02-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_02-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_02-Piton-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_02-10mm Ammo-number4",
+          "num": 4,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Trough_01",
+      "levelSideviews": [
+        "M5_Nest_Trough_01-sideview1",
+        "M5_Nest_Trough_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M5_Nest_Trough_01-Note-number1",
+          "num": 1,
+          "spawnchance": "19.9",
+          "textdata": [
+            "Spawn chance: 0.199"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_01-Piton-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_01-Piton-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M5_Nest_Trough_01-Piton-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Trough_01-10mm Ammo-number5",
+          "num": 5,
+          "spawnchance": "82.9",
+          "textdata": [
+            "Spawn chance: 0.829"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Transition_Infested_To_Trough_01",
+      "levelSideviews": [
+        "M5_Nest_Transition_Infested_To_Trough_01-sideview1",
+        "M5_Nest_Transition_Infested_To_Trough_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_Transition_HotZone_To_Trough_01",
+      "levelSideviews": [
+        "M5_Nest_Transition_HotZone_To_Trough_01-sideview1",
+        "M5_Nest_Transition_HotZone_To_Trough_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M5_Nest_Endless_Transition_Intro",
+      "levelSideviews": [
+        "M5_Nest_Endless_Transition_Intro-sideview1",
+        "M5_Nest_Endless_Transition_Intro-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Endless_Transition_Intro-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Endless_Transition_Intro-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Handgun",
+          "id": "M5_Nest_Endless_Transition_Intro-Handgun-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Endless_Start",
+      "levelSideviews": [
+        "M5_Nest_Endless_Start-sideview1",
+        "M5_Nest_Endless_Start-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Endless_Start-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "M5_Nest_Endless_Start-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Handgun",
+          "id": "M5_Nest_Endless_Start-Handgun-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M5_Nest_Endless_Breakroom_01",
+      "levelSideviews": [
+        "M5_Nest_Endless_Breakroom_01-sideview1",
+        "M5_Nest_Endless_Breakroom_01-sideview2"
       ],
       "items": []
     },
@@ -5295,6 +7361,141 @@
       ]
     },
     {
+      "levelName": "M4_Abyss_Transit_04",
+      "levelSideviews": [
+        "M4_Abyss_Transit_04-sideview1",
+        "M4_Abyss_Transit_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Auto Piton",
+          "id": "M4_Abyss_Transit_04-Auto Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Transit_04-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Transit_04-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_04-Rebar-number4",
+          "num": 4,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_04-Rebar-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M4_Abyss_Transit_04-Piton-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_04-Rebar-number7",
+          "num": 7,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M4_Abyss_Transit_04-Piton-number8",
+          "num": 8,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M4_Abyss_Transit_04-Piton-number9",
+          "num": 9,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_04-Rebar-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_04-Rebar-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_04-Flare Crate-number12",
+          "num": 12,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_04-Flare Crate-number13",
+          "num": 13,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_04-Flare Crate-number14",
+          "num": 14,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "M4_Abyss_Transit_03",
       "levelSideviews": [
         "M4_Abyss_Transit_03-sideview1",
@@ -5444,15 +7645,6 @@
           "textdata": [
             "Spawn chance: 0.651"
           ]
-        },
-        {
-          "name": "Supply Crate",
-          "id": "M4_Abyss_Transit_03-Supply Crate-number17",
-          "num": 17,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
         }
       ]
     },
@@ -5464,17 +7656,17 @@
       ],
       "items": [
         {
-          "name": "Auto Piton",
-          "id": "M4_Abyss_Transit_02-Auto Piton-number1",
+          "name": "Note",
+          "id": "M4_Abyss_Transit_02-Note-number1",
           "num": 1,
-          "spawnchance": "63.2",
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.632"
+            "Spawn chance: 1"
           ]
         },
         {
-          "name": "Rebar",
-          "id": "M4_Abyss_Transit_02-Rebar-number2",
+          "name": "Auto Piton",
+          "id": "M4_Abyss_Transit_02-Auto Piton-number2",
           "num": 2,
           "spawnchance": "63.2",
           "textdata": [
@@ -5491,8 +7683,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "M4_Abyss_Transit_02-Piton-number4",
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_02-Rebar-number4",
           "num": 4,
           "spawnchance": "63.2",
           "textdata": [
@@ -5509,8 +7701,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "M4_Abyss_Transit_02-Rebar-number6",
+          "name": "Piton",
+          "id": "M4_Abyss_Transit_02-Piton-number6",
           "num": 6,
           "spawnchance": "63.2",
           "textdata": [
@@ -5518,8 +7710,8 @@
           ]
         },
         {
-          "name": "Injector",
-          "id": "M4_Abyss_Transit_02-Injector-number7",
+          "name": "Rebar",
+          "id": "M4_Abyss_Transit_02-Rebar-number7",
           "num": 7,
           "spawnchance": "63.2",
           "textdata": [
@@ -5527,9 +7719,18 @@
           ]
         },
         {
-          "name": "PillBottle",
-          "id": "M4_Abyss_Transit_02-PillBottle-number8",
+          "name": "Injector",
+          "id": "M4_Abyss_Transit_02-Injector-number8",
           "num": 8,
+          "spawnchance": "63.2",
+          "textdata": [
+            "Spawn chance: 0.632"
+          ]
+        },
+        {
+          "name": "PillBottle",
+          "id": "M4_Abyss_Transit_02-PillBottle-number9",
+          "num": 9,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -5537,16 +7738,7 @@
         },
         {
           "name": "Flaregun Ammo",
-          "id": "M4_Abyss_Transit_02-Flaregun Ammo-number9",
-          "num": 9,
-          "spawnchance": "76.6",
-          "textdata": [
-            "Spawn chance: 0.766"
-          ]
-        },
-        {
-          "name": "Bean Bar",
-          "id": "M4_Abyss_Transit_02-Bean Bar-number10",
+          "id": "M4_Abyss_Transit_02-Flaregun Ammo-number10",
           "num": 10,
           "spawnchance": "76.6",
           "textdata": [
@@ -5554,12 +7746,12 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "M4_Abyss_Transit_02-Can of Beans-number11",
+          "name": "Bean Bar",
+          "id": "M4_Abyss_Transit_02-Bean Bar-number11",
           "num": 11,
-          "spawnchance": "90.6",
+          "spawnchance": "76.6",
           "textdata": [
-            "Spawn chance: 0.906"
+            "Spawn chance: 0.766"
           ]
         },
         {
@@ -5581,9 +7773,18 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M4_Abyss_Transit_02-Flare Crate-number14",
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Transit_02-Can of Beans-number14",
           "num": 14,
+          "spawnchance": "90.6",
+          "textdata": [
+            "Spawn chance: 0.906"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Transit_02-Flare Crate-number15",
+          "num": 15,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -6214,6 +8415,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Garden_01-Flare Crate-number8",
+          "num": 8,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -6248,6 +8458,177 @@
         "M4_Abyss_Endless_Breakroom_01-sideview2"
       ],
       "items": []
+    },
+    {
+      "levelName": "M4_Abyss_Handle_02",
+      "levelSideviews": [
+        "M4_Abyss_Handle_02-sideview1",
+        "M4_Abyss_Handle_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M4_Abyss_Handle_02-Note-number1",
+          "num": 1,
+          "spawnchance": "45.7",
+          "textdata": [
+            "Spawn chance: 0.457"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Handle_02-Rebar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Handle_02-Rebar-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Handle_02-Rebar-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M4_Abyss_Handle_02-Injector-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "PillBottle",
+          "id": "M4_Abyss_Handle_02-PillBottle-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Handle_02-Can of Beans-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "M4_Abyss_Handle_02-Bean Bar-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Handle_02-Can of Beans-number9",
+          "num": 9,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Handle_02-Can of Beans-number10",
+          "num": 10,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M4_Abyss_Handle_02-Can of Beans-number11",
+          "num": 11,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Handle_02-Rebar-number12",
+          "num": 12,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M4_Abyss_Handle_02-Injector-number13",
+          "num": 13,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M4_Abyss_Handle_02-Injector-number14",
+          "num": 14,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M4_Abyss_Handle_02-Rebar-Explosive-number15",
+          "num": 15,
+          "spawnchance": "82.8",
+          "textdata": [
+            "Spawn chance: 0.828"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M4_Abyss_Handle_02-Injector-number16",
+          "num": 16,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M4_Abyss_Handle_02-Injector-number17",
+          "num": 17,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M4_Abyss_Handle_02-Rebar-number18",
+          "num": 18,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
     },
     {
       "levelName": "M4_Abyss_Handle_01",
@@ -6962,6 +9343,15 @@
           "textdata": [
             "Spawn chance: 0.819"
           ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Shaft_03-Can of Beans-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -7170,6 +9560,15 @@
           "textdata": [
             "No spawn chance found."
           ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_Intro_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -7179,7 +9578,17 @@
         "M3_Delta_Pier_03-sideview1",
         "M3_Delta_Pier_03-sideview2"
       ],
-      "items": []
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_03-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
     },
     {
       "levelName": "M3_Delta_Pier_02",
@@ -8054,17 +10463,23 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_02-Flare Crate-number14",
+          "name": "Table Spawner",
+          "id": "M3_Habitation_Pier_02-spawntable-number14",
           "num": 14,
           "spawnchance": "N/A",
           "textdata": [
-            "No chance data (yet)"
+            "Spawns 6 to 8 items",
+            "Set 1 (28.2%): Denizen_Roach",
+            "Set 2 (164%): Roach",
+            "Set 3 (42.4%): Roach",
+            "Set 4 (3.9%): Denizen_Roach_Explosive",
+            "Set 5 (100%): Roach",
+            "Set 6 (100%): Roach"
           ]
         },
         {
-          "name": "Supply Crate",
-          "id": "M3_Habitation_Pier_02-Supply Crate-number15",
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Pier_02-Flare Crate-number15",
           "num": 15,
           "spawnchance": "N/A",
           "textdata": [
@@ -8075,6 +10490,15 @@
           "name": "Supply Crate",
           "id": "M3_Habitation_Pier_02-Supply Crate-number16",
           "num": 16,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Pier_02-Supply Crate-number17",
+          "num": 17,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -8529,6 +10953,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Note",
+          "id": "M3_Habitation_Entryway_01-Note-number18",
+          "num": 18,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -8639,9 +11072,18 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "M3_Habitation_Endless_Start-Flare Crate-number7",
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Endless_Start-Can of Beans-number7",
           "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "M3_Habitation_Endless_Start-Flare Crate-number8",
+          "num": 8,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -9579,7 +12021,26 @@
         "Transition_Silo_To_Pipeworks_01-sideview1",
         "Transition_Silo_To_Pipeworks_01-sideview2"
       ],
-      "items": []
+      "items": [
+        {
+          "name": "Piton",
+          "id": "Transition_Silo_To_Pipeworks_01-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Transition_Silo_To_Pipeworks_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
     },
     {
       "levelName": "Transition_Pipeworks_To_Silo",
@@ -11076,6 +13537,15 @@
           "textdata": [
             "Spawn chance: 0.272"
           ]
+        },
+        {
+          "name": "Rho Stone",
+          "id": "M2_Pipeworks_Organ_09-Rho Stone-number12",
+          "num": 12,
+          "spawnchance": "10",
+          "textdata": [
+            "Spawn chance: 0.1"
+          ]
         }
       ]
     },
@@ -11508,6 +13978,15 @@
           "spawnchance": "21.4",
           "textdata": [
             "Spawn chance: 0.214"
+          ]
+        },
+        {
+          "name": "Rho Stone",
+          "id": "M2_Pipeworks_Organ_02-Rho Stone-number12",
+          "num": 12,
+          "spawnchance": "15",
+          "textdata": [
+            "Spawn chance: 0.15"
           ]
         }
       ]
@@ -12304,9 +14783,18 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "M2_Pipeworks_Drainage_06-spawntable-number19",
+          "name": "Rho Stone",
+          "id": "M2_Pipeworks_Drainage_06-Rho Stone-number19",
           "num": 19,
+          "spawnchance": "15",
+          "textdata": [
+            "Spawn chance: 0.15"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "M2_Pipeworks_Drainage_06-spawntable-number20",
+          "num": 20,
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 6 to 8 items",
@@ -15339,9 +17827,18 @@
           ]
         },
         {
-          "name": "Entity Scanner",
-          "id": "M1_Silos_Storage_06-Entity Scanner-number11",
+          "name": "Rho Stone",
+          "id": "M1_Silos_Storage_06-Rho Stone-number11",
           "num": 11,
+          "spawnchance": "15",
+          "textdata": [
+            "Spawn chance: 0.15"
+          ]
+        },
+        {
+          "name": "Entity Scanner",
+          "id": "M1_Silos_Storage_06-Entity Scanner-number12",
+          "num": 12,
           "spawnchance": "50",
           "textdata": [
             "Spawn chance: 0.5",
@@ -16000,6 +18497,105 @@
             "Spawn chance: 0.804",
             "Must have flags: ACH_PIPEWORKS",
             "pickup-tag-disk: 0 to 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M1_Silos_Construct_03",
+      "levelSideviews": [
+        "M1_Silos_Construct_03-sideview1",
+        "M1_Silos_Construct_03-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Rebar",
+          "id": "M1_Silos_Construct_03-Rebar-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M1_Silos_Construct_03-Rebar-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Milk",
+          "id": "M1_Silos_Construct_03-Milk-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M1_Silos_Construct_03-Can of Beans-number4",
+          "num": 4,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M1_Silos_Construct_03-Can of Beans-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M1_Silos_Construct_03-Auto Piton-number6",
+          "num": 6,
+          "spawnchance": "70.4",
+          "textdata": [
+            "Spawn chance: 0.704"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M1_Silos_Construct_02",
+      "levelSideviews": [
+        "M1_Silos_Construct_02-sideview1",
+        "M1_Silos_Construct_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Rebar",
+          "id": "M1_Silos_Construct_02-Rebar-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M1_Silos_Construct_02-Rebar-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "SlugGrub",
+          "id": "M1_Silos_Construct_02-SlugGrub-number3",
+          "num": 3,
+          "spawnchance": "61.5",
+          "textdata": [
+            "Spawn chance: 0.615"
           ]
         }
       ]
