@@ -11,18 +11,39 @@ table {
 tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.02);
 }
+#intro p {
+    padding: 0 1em;
+}
 #toc {
-    max-width: 30em;
-    margin: auto;
     border: 1px solid black;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.44);
     border-radius: 6px;
+    box-sizing: border-box;
+    padding: 1em;
+    overflow: hidden;
+    flex-grow: 1;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
 }
 #toc::before {
     content: "Levels"
 }
-#toc li::marker {
+#toc ul {
+    width: 100%;
+    height: 98%;
+    padding: 0;
+    overflow: clip;
+    overflow-y: scroll;
+    margin: auto;
+    list-style: none;
+}
+#toc li:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+#toc li::before {
     content: "=>";
+    float: left;
 }
 h1 {
     color: yellow;
@@ -36,7 +57,7 @@ li a {
 td {
     border: 2px solid black;
     padding: 0;
-    min-width: 12vw;
+    min-width: 24vw;
 }
 tr,td {
     height: 100%;
@@ -172,4 +193,44 @@ small {
     font-size: 16px;
     background-color: #ffffff1a;
     content: "Click image to change side..."
+}
+.panecontainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.rightpane, .leftpane {
+    height: 100vh;
+    overflow: clip;
+    scrollbar-color: yellow #86868624;
+}
+.rightpane {
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+.leftpane {
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-right: solid black 3px;
+}
+@media only screen and (max-width: 1400px) {
+    tr td {
+        min-width: 12vw;
+    }
+    #toc, .leftpane, .searchcont {
+        padding: 0;
+    }
+    #toc li::before { 
+        display: none;
+    }
+}
+@media only screen and (max-height: 500px) {
+    .itemPicture {
+        height: 250px;
+    }
 }

@@ -60,7 +60,7 @@ var ToCComponent = {
     view: function() {
         try {
             var tocContents = [];
-            for (let levelIndex = 0; levelIndex < jsonresult.levels.length; ++levelIndex) {
+            for (let levelIndex = jsonresult.levels.length-1; levelIndex >= 0; levelIndex--) {
                 const level = jsonresult.levels[levelIndex];
                 if(searchbar.value && !level.levelName.includes(searchbar.value)) {continue;}
                 if(searchbaritem.value) {
